@@ -1,7 +1,6 @@
 :root {
-  --primary: #168e51;
-  --primary-txt: #fff;
-
+  --primary: #FDFDFD;
+  --primary-txt: #000;
 
   --accent: grey;
   --accent-txt: #fff;
@@ -72,6 +71,7 @@
   /* Jumbo section */
   --jumbo-logo-width: 800px;
   --jumbo-overlay-opacity: 0.6;
+  --jubo-overlay-transition: 0.5s;
 
   /* Partners */
   --partner-support-height: 60px;
@@ -112,6 +112,7 @@
     --base: #222;
     --base-text: #ddd;
     --primary: #168e51;
+    --primary-txt: #fff;
 
     --toc-text: #64b5f6;
 
@@ -129,5 +130,4 @@
     --footer-fg: #777;
   }
 }
-
 
