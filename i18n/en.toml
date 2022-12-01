@@ -73,3 +73,9 @@ other = "No spam, only the latest news and updates!"
 
 [subscribe_action]
 other = "Subscribe"
+
+#################
+# Form link     #
+#################
+[form_action]
+other = "Fill out the form"
