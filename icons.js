@@ -15,12 +15,12 @@ const data = glob(svgFiles)
       const id = parts[parts.length - 1].split('.')[0];
       logger.debug('handle', id);
       return readFileSync(file, 'utf8')
-        .replace(`<svg xmlns="https://www.w3.org/2000/svg"`, `\t<symbol id="${id}"`)
+        .replace(`<svg xmlns="http://www.w3.org/2000/svg"`, `\t<symbol id="${id}"`)
         .replace(`</svg>`, `\t</symbol>`);
     }
   );
 
-const svg = `<svg xmlns="https://www.w3.org/2000/svg" width="0" height="0" class="visually-hidden">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" class="visually-hidden">
   ${data.join('\n')}
 </svg>`;
 
