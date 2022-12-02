@@ -8,7 +8,7 @@ speakers:
   - guillaume_membre
 tags:
   - IOT
-presentation: http://slideshare.....
+presentation: https://slideshare.....
 videoId: Youtube Id
 ---
 
