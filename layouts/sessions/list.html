@@ -3,9 +3,21 @@
 {{ .Content }}
 
 <section>
+	<h2>Keynote</h2>
 	<ul class="talks">
 		{{ $sessions := where .Site.AllPages ".Section" "sessions" }}
-		{{ $types := (slice "keynote" "workshop") }}
+		{{ $types := (slice "keynote") }}
+		{{ range sort $sessions ".Title" }}
+		{{ if intersect (slice .Params.format) $types }}
+		<li class="talk tag-{{ anchorize (delimit (.Params.tags | default (slice)) "" ) }}">{{partial "session.html" . }}</li>
+		{{ end }}
+		{{ end }}
+	</ul>
+	
+	<h2>Workshops</h2>
+	<ul class="talks">
+		{{ $sessions := where .Site.AllPages ".Section" "sessions" }}
+		{{ $types := (slice "workshop") }}
 		{{ range sort $sessions ".Title" }}
 		{{ if intersect (slice .Params.format) $types }}
 		<li class="talk tag-{{ anchorize (delimit (.Params.tags | default (slice)) "" ) }}">{{ partial "session.html" . }}</li>
