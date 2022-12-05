@@ -1,0 +1,8 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $title := .Get "title" }}
+<section class="content">
+	{{ if $title }}
+	<h2>{{ $title }}</h2>
+	{{ end }}
+	{{ .Inner }}
+</section>
