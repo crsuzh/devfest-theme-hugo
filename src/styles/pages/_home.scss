@@ -4,12 +4,20 @@
     margin: 0;
     padding: 4rem;
 
+    h1 {
+      //margin-bottom: 1.5rem;
+      //padding: 0;
+      font-size: 2rem;
+      //line-height: 1.875rem;
+      //font-weight: 300;
+    }
+
     h2 {
       margin-bottom: 1.5rem;
       padding: 0;
-      font-size: 2rem;
+      font-size: 1.5rem;
       line-height: 1.875rem;
-      font-weight: 300;
+      //font-weight: 300;
     }
   }
 
@@ -50,7 +58,7 @@
       justify-self: center;
       min-width: 14ch;
       strong {
-        font-size: 3.5rem;
+        font-size: 1.5rem;
         font-weight: 100;
 
         &::after {
