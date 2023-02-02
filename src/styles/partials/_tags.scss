@@ -1,41 +1,21 @@
-.tag-method-tools {
-  background-color: var(--method-tools);
-}
-
-.tag-native-mobile-apps {
-  background-color: var(--native-mobile-apps);
-}
-
-.tag-web {
-  background-color: var(--web);
-}
-
-.tag-big-data-ml-ai {
-  background-color: var(--big-data-ml-ai);
-}
-
-.tag-iot {
-  background-color: var(--iot);
-}
-
-.tag-cloud-infra {
-  background-color: var(--cloud);
-}
-
-.tag-languages {
-  background-color: var(--languages);
-}
-
-.tag-wtf {
-  background-color: var(--wtf);
-}
-
 .tag-keynote {
   background-color: var(--keynote);
 }
 
-.tag-office-hours {
-  background-color: var(--office-hours);
+.tag-workshop {
+  background-color: var(--workshop);
+}
+
+.tag-lunch {
+  background-color: var(--lunch);
+}
+
+.tag-apero {
+  background-color: var(--apero);
+}
+
+.tag-pause {
+  background-color: var(--pause);
 }
 
 .tag-general {
@@ -63,6 +43,6 @@ section .tags {
   background-image: url('/images/backgrounds/lunch.jpg');
 }
 
-.tag-party {
+.tag-apero {
   background-image: url('/images/backgrounds/party.jpg');
 }

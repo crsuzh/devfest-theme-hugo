@@ -55,8 +55,9 @@
   --tag7: #f1e2cc;
   --tag8: #cccccc;
 
-  --native-mobile-apps: var(--tag2);
-  --web: var(--tag6);
+  --keynote: var(--tag2);
+  --workshop: var(--tag6);
+  /* 
   --method-tools: var(--tag5);
   --big-data-ml-ai: var(--tag3);
   --iot: var(--tag8);
@@ -64,9 +65,9 @@
   --languages: var(--tag1);
   --wtf: var(--tag7);
   --general: var(--tag8);
-
-  --office-hours: floralwhite;
-  --keynote: paleturquoise;
+  */
+  --break: floralwhite;
+  // --keynote: paleturquoise;
 
   /* Jumbo section */
   --jumbo-logo-width: 400px;
@@ -106,13 +107,13 @@
 
 
 // Dark theme
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 
   :root {
     --base: #222;
     --base-text: #ddd;
     --primary: #168e51;
-    --primary-txt: #fff;
+    --primary-txt: #b6bab8;
 
     --toc-text: #64b5f6;
 
@@ -129,5 +130,5 @@
     --footer-bg: #000;
     --footer-fg: #777;
   }
-}
+} */
 

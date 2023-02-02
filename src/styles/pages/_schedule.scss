@@ -107,7 +107,7 @@
     margin: 1rem 1rem 1rem 5ch;
     border-radius: var(--space-2);
 
-    &.tag-open, &.tag-pause, &.tag-lunch, &.tag-party {
+    &.tag-open, &.tag-pause, &.tag-lunch, &.tag-apero {
       background-position: center center;
       background-size: cover;
       pointer-events: none;
@@ -122,7 +122,7 @@
       }
     }
 
-    &.tag-open, &.tag-pause, &.tag-lunch, &.tag-party, &.tag-office-hours {
+    &.tag-open, &.tag-pause, &.tag-lunch, &.tag-apero, &.tag-office-hours {
       .tags {
         display: none;
       }
@@ -273,13 +273,13 @@
         grid-column: 2 / -1;
       }
 
-      &.tag-open, &.tag-lunch, &.tag-party {
+      &.tag-open, &.tag-lunch, &.tag-apero {
         h4 {
           font-size: 2em;
         }
       }
 
-      &.tag-open, &.tag-lunch, &.tag-party {
+      &.tag-open, &.tag-lunch, &.tag-apero {
         grid-column: 2 / -1;
         z-index: 1;
       }
@@ -374,7 +374,7 @@
       grid-row: calc(var(--room) + 2);
       grid-column: var(--start) / var(--end);
 
-      &.tag-open, &.tag-pause, &.tag-lunch, &.tag-party {
+      &.tag-open, &.tag-pause, &.tag-lunch, &.tag-apero {
         grid-row: 2 / -1;
       }
 
