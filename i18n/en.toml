@@ -79,3 +79,9 @@ other = "Subscribe"
 #################
 [form_action]
 other = "Fill out the form"
+
+#################
+# Schedule link #
+#################
+[schedule_link]
+other = "See the schedule"
