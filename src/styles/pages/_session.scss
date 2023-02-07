@@ -7,6 +7,10 @@
     content: 'Niveau : ';
   }*/
 
+  .material::before {
+    content: 'Material : ';
+  }
+
   .type::before {
     content: 'Type : ';
   }
