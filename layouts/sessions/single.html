@@ -16,6 +16,14 @@
 
 	<div class="info">
 		<div class="complexity">{{ .Params.level }}</div>
+		{{ if .Params.material }}
+		<div class="material">
+			<a	rel="noopener noreferrer"
+				style="color:#64b5f6"
+				href="{{ .Params.material }}"
+				target="_blank">{{ .Params.material }}</a> 
+		</div>
+		{{ end }}
 		<div class="type type-{{ anchorize .Params.format }}">{{ .Params.format }}</div>
 
 		<div class="detail">
@@ -53,7 +61,7 @@
 		   rel="noopener noreferrer"
 		   target="_blank">
 			{{ partial "icon.html" "slides" }}
-			Voir les slides
+			See the slides
 		</a>
 		{{ end }}
 
